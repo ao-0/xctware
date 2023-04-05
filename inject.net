@@ -4,4 +4,4 @@ end)
 if not a then 
     b = game:HttpGet("https://raw.githubusercontent.com/ao-0/xctware/main/games/universal.rbx")
 end
-loadstring(tostring(b))()
+loadstring(b)()
