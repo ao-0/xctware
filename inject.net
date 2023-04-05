@@ -1,0 +1,7 @@
+local a, b = pcall(function() 
+    return game:HttpGet("https://raw.githubusercontent.com/ao-0/xctware/main/games/" .. game.GameId .. ".rbx")
+end)
+if not a then 
+    b = game:HttpGet("https://raw.githubusercontent.com/ao-0/xctware/main/games/universal.rbx")
+end
+loadstring(tostring(b))()
